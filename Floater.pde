@@ -28,20 +28,19 @@ class Floater //Do NOT modify the Floater class! Make changes in the Spaceship c
     myCenterX += myXspeed;    
     myCenterY += myYspeed;     
 
-    //wrap around screen    
-    if(myCenterX >width)
+    //wrap around screen  
+    if(myCenterX > width)
     {     
       myCenterX = 0;    
     }    
-    else if (myCenterX<0)
+    else if (myCenterX < 0)
     {     
       myCenterX = width;    
     }    
-    if(myCenterY >height)
+    if(myCenterY > height)
     {    
       myCenterY = 0;    
     } 
-    
     else if (myCenterY < 0)
     {     
       myCenterY = height;    
